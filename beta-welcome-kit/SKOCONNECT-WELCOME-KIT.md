@@ -43,7 +43,7 @@ Your school account has been created and an invitation email is on its way to **
 | **Week 4** | Go-live — start sending real notices and forms |
 
 **Your dedicated support contact:**
-- 📧 Email: support.skoconnect@agentmail.to
+- 📧 Email: support@skoconnect.com
 - 📱 WhatsApp: **[Support Number]**
 - ⏰ Response time: Within 4 hours (business hours)
 
@@ -511,7 +511,7 @@ Thank you!
 │  → Choose audience → Save                    │
 │                                              │
 │  💬 NEED HELP?                               │
-│  📧 support.skoconnect@agentmail.to                   │
+│  📧 support@skoconnect.com                   │
 │  📱 [WhatsApp support number]                │
 │                                              │
 └──────────────────────────────────────────────┘
@@ -546,7 +546,7 @@ Thank you!
 │                                              │
 │  ❓ QUESTIONS?                               │
 │  Ask your school administrator or contact:   │
-│  📧 support.skoconnect@agentmail.to                   │
+│  📧 support@skoconnect.com                   │
 │                                              │
 └──────────────────────────────────────────────┘
 ```
@@ -581,7 +581,7 @@ Thank you!
 │                                              │
 │  ❓ QUESTIONS?                               │
 │  Contact your child's school office or:      │
-│  📧 support.skoconnect@agentmail.to                   │
+│  📧 support@skoconnect.com                   │
 │                                              │
 └──────────────────────────────────────────────┘
 ```
@@ -614,7 +614,7 @@ Thank you!
 
 ### Support Contact
 
-- **Email:** support.skoconnect@agentmail.to
+- **Email:** support@skoconnect.com
 - **WhatsApp:** [Support Number]
 - **Hours:** Monday–Friday, 8:00 AM – 6:00 PM (Jamaica time)
 
