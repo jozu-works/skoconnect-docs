@@ -1,0 +1,530 @@
+{
+  "Desktop-1366x768": {
+    "category": "Desktop",
+    "pages": {
+      "landing": {
+        "viewport": "1366x768",
+        "loaded": true,
+        "horizontalScrollbar": "false",
+        "overflowIssues": "None",
+        "navRenders": "false",
+        "navIssues": "No navigation element found",
+        "textReadability": "true",
+        "pageTitle": "",
+        "finalUrl": "https://school-connect-enterprise.web.app/login",
+        "authRequired": "",
+        "status": "expected"
+      },
+      "admin": {
+        "viewport": "1366x768",
+        "loaded": "true",
+        "horizontalScrollbar": "false",
+        "overflowIssues": "None",
+        "navRenders": "false",
+        "navIssues": "None",
+        "textReadability": "true",
+        "pageTitle": "",
+        "finalUrl": "https://school-connect-enterprise.web.app/login",
+        "authRequired": "true",
+        "status": "expected"
+      },
+      "login": {
+        "viewport": "1366x768",
+        "loaded": "true",
+        "horizontalScrollbar": "false",
+        "overflowIssues": "None",
+        "navRenders": "false",
+        "navIssues": "None",
+        "textReadability": "true",
+        "pageTitle": "",
+        "finalUrl": "https://school-connect-enterprise.web.app/login",
+        "authRequired": "true",
+        "status": "expected"
+      }
+    }
+  },
+  "Desktop-1536x864": {
+    "category": "Desktop",
+    "pages": {
+      "landing": {
+        "viewport": "1536x864",
+        "loaded": true,
+        "horizontalScrollbar": "false",
+        "overflowIssues": "None",
+        "navRenders": "false",
+        "navIssues": "No navigation element found",
+        "textReadability": "true",
+        "pageTitle": "",
+        "finalUrl": "https://school-connect-enterprise.web.app/login",
+        "authRequired": "",
+        "status": "expected"
+      },
+      "admin": {
+        "viewport": "1536x864",
+        "loaded": "true",
+        "horizontalScrollbar": "false",
+        "overflowIssues": "None",
+        "navRenders": "false",
+        "navIssues": "None",
+        "textReadability": "true",
+        "pageTitle": "",
+        "finalUrl": "https://school-connect-enterprise.web.app/login",
+        "authRequired": "true",
+        "status": "expected"
+      },
+      "login": {
+        "viewport": "1536x864",
+        "loaded": "true",
+        "horizontalScrollbar": "false",
+        "overflowIssues": "None",
+        "navRenders": "false",
+        "navIssues": "None",
+        "textReadability": "true",
+        "pageTitle": "",
+        "finalUrl": "https://school-connect-enterprise.web.app/login",
+        "authRequired": "true",
+        "status": "expected"
+      }
+    }
+  },
+  "Desktop-1920x1080": {
+    "category": "Desktop",
+    "pages": {
+      "landing": {
+        "viewport": "1920x1080",
+        "loaded": true,
+        "horizontalScrollbar": "false",
+        "overflowIssues": "None",
+        "navRenders": "false",
+        "navIssues": "No navigation element found",
+        "textReadability": "true",
+        "pageTitle": "",
+        "finalUrl": "https://school-connect-enterprise.web.app/login",
+        "authRequired": "",
+        "status": "expected"
+      },
+      "admin": {
+        "viewport": "1920x1080",
+        "loaded": "true",
+        "horizontalScrollbar": "false",
+        "overflowIssues": "None",
+        "navRenders": "false",
+        "navIssues": "None",
+        "textReadability": "true",
+        "pageTitle": "",
+        "finalUrl": "https://school-connect-enterprise.web.app/login",
+        "authRequired": "true",
+        "status": "expected"
+      },
+      "login": {
+        "viewport": "1920x1080",
+        "loaded": "true",
+        "horizontalScrollbar": "false",
+        "overflowIssues": "None",
+        "navRenders": "false",
+        "navIssues": "None",
+        "textReadability": "true",
+        "pageTitle": "",
+        "finalUrl": "https://school-connect-enterprise.web.app/login",
+        "authRequired": "true",
+        "status": "expected"
+      }
+    }
+  },
+  "Desktop-2560x1440": {
+    "category": "Desktop",
+    "pages": {
+      "landing": {
+        "viewport": "2560x1440",
+        "loaded": true,
+        "horizontalScrollbar": "false",
+        "overflowIssues": "None",
+        "navRenders": "false",
+        "navIssues": "No navigation element found",
+        "textReadability": "true",
+        "pageTitle": "",
+        "finalUrl": "https://school-connect-enterprise.web.app/login",
+        "authRequired": "",
+        "status": "expected"
+      },
+      "admin": {
+        "viewport": "2560x1440",
+        "loaded": "true",
+        "horizontalScrollbar": "false",
+        "overflowIssues": "None",
+        "navRenders": "false",
+        "navIssues": "None",
+        "textReadability": "true",
+        "pageTitle": "",
+        "finalUrl": "https://school-connect-enterprise.web.app/login",
+        "authRequired": "true",
+        "status": "expected"
+      },
+      "login": {
+        "viewport": "2560x1440",
+        "loaded": "true",
+        "horizontalScrollbar": "false",
+        "overflowIssues": "None",
+        "navRenders": "false",
+        "navIssues": "None",
+        "textReadability": "true",
+        "pageTitle": "",
+        "finalUrl": "https://school-connect-enterprise.web.app/login",
+        "authRequired": "true",
+        "status": "expected"
+      }
+    }
+  },
+  "Tablet-768x1024": {
+    "category": "Tablet",
+    "pages": {
+      "landing": {
+        "viewport": "768x1024",
+        "loaded": true,
+        "horizontalScrollbar": "false",
+        "overflowIssues": "None",
+        "navRenders": "false",
+        "navIssues": "No navigation element found",
+        "textReadability": "true",
+        "pageTitle": "",
+        "finalUrl": "https://school-connect-enterprise.web.app/login",
+        "authRequired": "",
+        "status": "expected"
+      },
+      "admin": {
+        "viewport": "768x1024",
+        "loaded": "true",
+        "horizontalScrollbar": "false",
+        "overflowIssues": "None",
+        "navRenders": "false",
+        "navIssues": "None",
+        "textReadability": "true",
+        "pageTitle": "",
+        "finalUrl": "https://school-connect-enterprise.web.app/login",
+        "authRequired": "true",
+        "status": "expected"
+      },
+      "login": {
+        "viewport": "768x1024",
+        "loaded": "true",
+        "horizontalScrollbar": "false",
+        "overflowIssues": "None",
+        "navRenders": "false",
+        "navIssues": "None",
+        "textReadability": "true",
+        "pageTitle": "",
+        "finalUrl": "https://school-connect-enterprise.web.app/login",
+        "authRequired": "true",
+        "status": "expected"
+      }
+    }
+  },
+  "Tablet-1024x768": {
+    "category": "Tablet",
+    "pages": {
+      "landing": {
+        "viewport": "1024x768",
+        "loaded": true,
+        "horizontalScrollbar": "false",
+        "overflowIssues": "None",
+        "navRenders": "false",
+        "navIssues": "No navigation element found",
+        "textReadability": "true",
+        "pageTitle": "",
+        "finalUrl": "https://school-connect-enterprise.web.app/login",
+        "authRequired": "",
+        "status": "expected"
+      },
+      "admin": {
+        "viewport": "1024x768",
+        "loaded": "true",
+        "horizontalScrollbar": "false",
+        "overflowIssues": "None",
+        "navRenders": "false",
+        "navIssues": "None",
+        "textReadability": "true",
+        "pageTitle": "",
+        "finalUrl": "https://school-connect-enterprise.web.app/login",
+        "authRequired": "true",
+        "status": "expected"
+      },
+      "login": {
+        "viewport": "1024x768",
+        "loaded": "true",
+        "horizontalScrollbar": "false",
+        "overflowIssues": "None",
+        "navRenders": "false",
+        "navIssues": "None",
+        "textReadability": "true",
+        "pageTitle": "",
+        "finalUrl": "https://school-connect-enterprise.web.app/login",
+        "authRequired": "true",
+        "status": "expected"
+      }
+    }
+  },
+  "Tablet-1280x800": {
+    "category": "Tablet",
+    "pages": {
+      "landing": {
+        "viewport": "1280x800",
+        "loaded": true,
+        "horizontalScrollbar": "false",
+        "overflowIssues": "None",
+        "navRenders": "false",
+        "navIssues": "No navigation element found",
+        "textReadability": "true",
+        "pageTitle": "",
+        "finalUrl": "https://school-connect-enterprise.web.app/login",
+        "authRequired": "",
+        "status": "expected"
+      },
+      "admin": {
+        "viewport": "1280x800",
+        "loaded": "true",
+        "horizontalScrollbar": "false",
+        "overflowIssues": "None",
+        "navRenders": "false",
+        "navIssues": "None",
+        "textReadability": "true",
+        "pageTitle": "",
+        "finalUrl": "https://school-connect-enterprise.web.app/login",
+        "authRequired": "true",
+        "status": "expected"
+      },
+      "login": {
+        "viewport": "1280x800",
+        "loaded": "true",
+        "horizontalScrollbar": "false",
+        "overflowIssues": "None",
+        "navRenders": "false",
+        "navIssues": "None",
+        "textReadability": "true",
+        "pageTitle": "",
+        "finalUrl": "https://school-connect-enterprise.web.app/login",
+        "authRequired": "true",
+        "status": "expected"
+      }
+    }
+  },
+  "Mobile-375x667": {
+    "category": "Mobile",
+    "pages": {
+      "landing": {
+        "viewport": "375x667",
+        "loaded": true,
+        "horizontalScrollbar": "false",
+        "overflowIssues": "None",
+        "navRenders": "false",
+        "navIssues": "No navigation element found",
+        "textReadability": "true",
+        "pageTitle": "",
+        "finalUrl": "https://school-connect-enterprise.web.app/login",
+        "authRequired": "",
+        "status": "expected"
+      },
+      "admin": {
+        "viewport": "375x667",
+        "loaded": "true",
+        "horizontalScrollbar": "false",
+        "overflowIssues": "None",
+        "navRenders": "false",
+        "navIssues": "None",
+        "textReadability": "true",
+        "pageTitle": "",
+        "finalUrl": "https://school-connect-enterprise.web.app/login",
+        "authRequired": "true",
+        "status": "expected"
+      },
+      "login": {
+        "viewport": "375x667",
+        "loaded": "true",
+        "horizontalScrollbar": "false",
+        "overflowIssues": "None",
+        "navRenders": "false",
+        "navIssues": "None",
+        "textReadability": "true",
+        "pageTitle": "",
+        "finalUrl": "https://school-connect-enterprise.web.app/login",
+        "authRequired": "true",
+        "status": "expected"
+      }
+    }
+  },
+  "Mobile-390x844": {
+    "category": "Mobile",
+    "pages": {
+      "landing": {
+        "viewport": "390x844",
+        "loaded": true,
+        "horizontalScrollbar": "false",
+        "overflowIssues": "None",
+        "navRenders": "false",
+        "navIssues": "No navigation element found",
+        "textReadability": "true",
+        "pageTitle": "",
+        "finalUrl": "https://school-connect-enterprise.web.app/login",
+        "authRequired": "",
+        "status": "expected"
+      },
+      "admin": {
+        "viewport": "390x844",
+        "loaded": "true",
+        "horizontalScrollbar": "false",
+        "overflowIssues": "None",
+        "navRenders": "false",
+        "navIssues": "None",
+        "textReadability": "true",
+        "pageTitle": "",
+        "finalUrl": "https://school-connect-enterprise.web.app/login",
+        "authRequired": "true",
+        "status": "expected"
+      },
+      "login": {
+        "viewport": "390x844",
+        "loaded": "true",
+        "horizontalScrollbar": "false",
+        "overflowIssues": "None",
+        "navRenders": "false",
+        "navIssues": "None",
+        "textReadability": "true",
+        "pageTitle": "",
+        "finalUrl": "https://school-connect-enterprise.web.app/login",
+        "authRequired": "true",
+        "status": "expected"
+      }
+    }
+  },
+  "Mobile-414x896": {
+    "category": "Mobile",
+    "pages": {
+      "landing": {
+        "viewport": "414x896",
+        "loaded": true,
+        "horizontalScrollbar": "false",
+        "overflowIssues": "None",
+        "navRenders": "false",
+        "navIssues": "No navigation element found",
+        "textReadability": "true",
+        "pageTitle": "",
+        "finalUrl": "https://school-connect-enterprise.web.app/login",
+        "authRequired": "",
+        "status": "expected"
+      },
+      "admin": {
+        "viewport": "414x896",
+        "loaded": "true",
+        "horizontalScrollbar": "false",
+        "overflowIssues": "None",
+        "navRenders": "false",
+        "navIssues": "None",
+        "textReadability": "true",
+        "pageTitle": "",
+        "finalUrl": "https://school-connect-enterprise.web.app/login",
+        "authRequired": "true",
+        "status": "expected"
+      },
+      "login": {
+        "viewport": "414x896",
+        "loaded": "true",
+        "horizontalScrollbar": "false",
+        "overflowIssues": "None",
+        "navRenders": "false",
+        "navIssues": "None",
+        "textReadability": "true",
+        "pageTitle": "",
+        "finalUrl": "https://school-connect-enterprise.web.app/login",
+        "authRequired": "true",
+        "status": "expected"
+      }
+    }
+  },
+  "Mobile-360x640": {
+    "category": "Mobile",
+    "pages": {
+      "landing": {
+        "viewport": "360x640",
+        "loaded": true,
+        "horizontalScrollbar": "false",
+        "overflowIssues": "None",
+        "navRenders": "false",
+        "navIssues": "No navigation element found",
+        "textReadability": "true",
+        "pageTitle": "",
+        "finalUrl": "https://school-connect-enterprise.web.app/login",
+        "authRequired": "",
+        "status": "expected"
+      },
+      "admin": {
+        "viewport": "360x640",
+        "loaded": "true",
+        "horizontalScrollbar": "false",
+        "overflowIssues": "None",
+        "navRenders": "false",
+        "navIssues": "None",
+        "textReadability": "true",
+        "pageTitle": "",
+        "finalUrl": "https://school-connect-enterprise.web.app/login",
+        "authRequired": "true",
+        "status": "expected"
+      },
+      "login": {
+        "viewport": "360x640",
+        "loaded": "true",
+        "horizontalScrollbar": "false",
+        "overflowIssues": "None",
+        "navRenders": "false",
+        "navIssues": "None",
+        "textReadability": "true",
+        "pageTitle": "",
+        "finalUrl": "https://school-connect-enterprise.web.app/login",
+        "authRequired": "true",
+        "status": "expected"
+      }
+    }
+  },
+  "Mobile-411x823": {
+    "category": "Mobile",
+    "pages": {
+      "landing": {
+        "viewport": "411x823",
+        "loaded": true,
+        "horizontalScrollbar": "false",
+        "overflowIssues": "None",
+        "navRenders": "false",
+        "navIssues": "No navigation element found",
+        "textReadability": "true",
+        "pageTitle": "",
+        "finalUrl": "https://school-connect-enterprise.web.app/login",
+        "authRequired": "",
+        "status": "expected"
+      },
+      "admin": {
+        "viewport": "411x823",
+        "loaded": "true",
+        "horizontalScrollbar": "false",
+        "overflowIssues": "None",
+        "navRenders": "false",
+        "navIssues": "None",
+        "textReadability": "true",
+        "pageTitle": "",
+        "finalUrl": "https://school-connect-enterprise.web.app/login",
+        "authRequired": "true",
+        "status": "expected"
+      },
+      "login": {
+        "viewport": "411x823",
+        "loaded": "true",
+        "horizontalScrollbar": "false",
+        "overflowIssues": "None",
+        "navRenders": "false",
+        "navIssues": "None",
+        "textReadability": "true",
+        "pageTitle": "",
+        "finalUrl": "https://school-connect-enterprise.web.app/login",
+        "authRequired": "true",
+        "status": "expected"
+      }
+    }
+  }
+}

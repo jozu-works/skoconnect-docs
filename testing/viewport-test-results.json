@@ -1,0 +1,4060 @@
+{
+  "config": {
+    "configFile": "/home/atlas/SkoConnect/viewport-test.config.ts",
+    "rootDir": "/home/atlas/SkoConnect/admin-web/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/home/atlas/SkoConnect/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/home/atlas/SkoConnect/admin-web/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "viewport-responsive.spec.ts"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "json"
+      ],
+      [
+        "list"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.59.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "viewport-responsive.spec.ts",
+      "file": "viewport-responsive.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Viewport: Desktop-1366x768 (Desktop)",
+          "file": "viewport-responsive.spec.ts",
+          "line": 280,
+          "column": 8,
+          "specs": [
+            {
+              "title": "Landing page - Desktop-1366x768",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "viewport",
+                      "description": "1366x768"
+                    },
+                    {
+                      "type": "category",
+                      "description": "Desktop"
+                    },
+                    {
+                      "type": "horizontalScrollbar",
+                      "description": "false"
+                    },
+                    {
+                      "type": "overflowIssues",
+                      "description": "None"
+                    },
+                    {
+                      "type": "navRenders",
+                      "description": "false"
+                    },
+                    {
+                      "type": "navIssues",
+                      "description": "No navigation element found"
+                    },
+                    {
+                      "type": "textReadability",
+                      "description": "true"
+                    },
+                    {
+                      "type": "pageTitle",
+                      "description": ""
+                    },
+                    {
+                      "type": "finalUrl",
+                      "description": "https://school-connect-enterprise.web.app/login"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5787,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-06T02:49:28.932Z",
+                      "annotations": [
+                        {
+                          "type": "viewport",
+                          "description": "1366x768"
+                        },
+                        {
+                          "type": "category",
+                          "description": "Desktop"
+                        },
+                        {
+                          "type": "horizontalScrollbar",
+                          "description": "false"
+                        },
+                        {
+                          "type": "overflowIssues",
+                          "description": "None"
+                        },
+                        {
+                          "type": "navRenders",
+                          "description": "false"
+                        },
+                        {
+                          "type": "navIssues",
+                          "description": "No navigation element found"
+                        },
+                        {
+                          "type": "textReadability",
+                          "description": "true"
+                        },
+                        {
+                          "type": "pageTitle",
+                          "description": ""
+                        },
+                        {
+                          "type": "finalUrl",
+                          "description": "https://school-connect-enterprise.web.app/login"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f8ec5535fe8a34bc67e0-cd2e425776d2bb4a61ce",
+              "file": "viewport-responsive.spec.ts",
+              "line": 298,
+              "column": 9
+            },
+            {
+              "title": "/admin page - Desktop-1366x768",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "viewport",
+                      "description": "1366x768"
+                    },
+                    {
+                      "type": "loaded",
+                      "description": "true"
+                    },
+                    {
+                      "type": "authRequired",
+                      "description": "true"
+                    },
+                    {
+                      "type": "horizontalScrollbar",
+                      "description": "false"
+                    },
+                    {
+                      "type": "overflowIssues",
+                      "description": "None"
+                    },
+                    {
+                      "type": "navRenders",
+                      "description": "false"
+                    },
+                    {
+                      "type": "textReadability",
+                      "description": "true"
+                    },
+                    {
+                      "type": "pageTitle",
+                      "description": ""
+                    },
+                    {
+                      "type": "finalUrl",
+                      "description": "https://school-connect-enterprise.web.app/login"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3066,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-06T02:49:35.182Z",
+                      "annotations": [
+                        {
+                          "type": "viewport",
+                          "description": "1366x768"
+                        },
+                        {
+                          "type": "loaded",
+                          "description": "true"
+                        },
+                        {
+                          "type": "authRequired",
+                          "description": "true"
+                        },
+                        {
+                          "type": "horizontalScrollbar",
+                          "description": "false"
+                        },
+                        {
+                          "type": "overflowIssues",
+                          "description": "None"
+                        },
+                        {
+                          "type": "navRenders",
+                          "description": "false"
+                        },
+                        {
+                          "type": "textReadability",
+                          "description": "true"
+                        },
+                        {
+                          "type": "pageTitle",
+                          "description": ""
+                        },
+                        {
+                          "type": "finalUrl",
+                          "description": "https://school-connect-enterprise.web.app/login"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f8ec5535fe8a34bc67e0-916ec6b360bc3f8bc770",
+              "file": "viewport-responsive.spec.ts",
+              "line": 324,
+              "column": 9
+            },
+            {
+              "title": "/login page - Desktop-1366x768",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "viewport",
+                      "description": "1366x768"
+                    },
+                    {
+                      "type": "loaded",
+                      "description": "true"
+                    },
+                    {
+                      "type": "authRequired",
+                      "description": "true"
+                    },
+                    {
+                      "type": "horizontalScrollbar",
+                      "description": "false"
+                    },
+                    {
+                      "type": "overflowIssues",
+                      "description": "None"
+                    },
+                    {
+                      "type": "navRenders",
+                      "description": "false"
+                    },
+                    {
+                      "type": "textReadability",
+                      "description": "true"
+                    },
+                    {
+                      "type": "pageTitle",
+                      "description": ""
+                    },
+                    {
+                      "type": "finalUrl",
+                      "description": "https://school-connect-enterprise.web.app/login"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3147,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-06T02:49:38.263Z",
+                      "annotations": [
+                        {
+                          "type": "viewport",
+                          "description": "1366x768"
+                        },
+                        {
+                          "type": "loaded",
+                          "description": "true"
+                        },
+                        {
+                          "type": "authRequired",
+                          "description": "true"
+                        },
+                        {
+                          "type": "horizontalScrollbar",
+                          "description": "false"
+                        },
+                        {
+                          "type": "overflowIssues",
+                          "description": "None"
+                        },
+                        {
+                          "type": "navRenders",
+                          "description": "false"
+                        },
+                        {
+                          "type": "textReadability",
+                          "description": "true"
+                        },
+                        {
+                          "type": "pageTitle",
+                          "description": ""
+                        },
+                        {
+                          "type": "finalUrl",
+                          "description": "https://school-connect-enterprise.web.app/login"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f8ec5535fe8a34bc67e0-8cccff735dd8be38c509",
+              "file": "viewport-responsive.spec.ts",
+              "line": 347,
+              "column": 9
+            }
+          ]
+        },
+        {
+          "title": "Viewport: Desktop-1536x864 (Desktop)",
+          "file": "viewport-responsive.spec.ts",
+          "line": 280,
+          "column": 8,
+          "specs": [
+            {
+              "title": "Landing page - Desktop-1536x864",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "viewport",
+                      "description": "1536x864"
+                    },
+                    {
+                      "type": "category",
+                      "description": "Desktop"
+                    },
+                    {
+                      "type": "horizontalScrollbar",
+                      "description": "false"
+                    },
+                    {
+                      "type": "overflowIssues",
+                      "description": "None"
+                    },
+                    {
+                      "type": "navRenders",
+                      "description": "false"
+                    },
+                    {
+                      "type": "navIssues",
+                      "description": "No navigation element found"
+                    },
+                    {
+                      "type": "textReadability",
+                      "description": "true"
+                    },
+                    {
+                      "type": "pageTitle",
+                      "description": ""
+                    },
+                    {
+                      "type": "finalUrl",
+                      "description": "https://school-connect-enterprise.web.app/login"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3594,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-06T02:49:41.442Z",
+                      "annotations": [
+                        {
+                          "type": "viewport",
+                          "description": "1536x864"
+                        },
+                        {
+                          "type": "category",
+                          "description": "Desktop"
+                        },
+                        {
+                          "type": "horizontalScrollbar",
+                          "description": "false"
+                        },
+                        {
+                          "type": "overflowIssues",
+                          "description": "None"
+                        },
+                        {
+                          "type": "navRenders",
+                          "description": "false"
+                        },
+                        {
+                          "type": "navIssues",
+                          "description": "No navigation element found"
+                        },
+                        {
+                          "type": "textReadability",
+                          "description": "true"
+                        },
+                        {
+                          "type": "pageTitle",
+                          "description": ""
+                        },
+                        {
+                          "type": "finalUrl",
+                          "description": "https://school-connect-enterprise.web.app/login"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f8ec5535fe8a34bc67e0-e19d5bc01c04a40804fb",
+              "file": "viewport-responsive.spec.ts",
+              "line": 298,
+              "column": 9
+            },
+            {
+              "title": "/admin page - Desktop-1536x864",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "viewport",
+                      "description": "1536x864"
+                    },
+                    {
+                      "type": "loaded",
+                      "description": "true"
+                    },
+                    {
+                      "type": "authRequired",
+                      "description": "true"
+                    },
+                    {
+                      "type": "horizontalScrollbar",
+                      "description": "false"
+                    },
+                    {
+                      "type": "overflowIssues",
+                      "description": "None"
+                    },
+                    {
+                      "type": "navRenders",
+                      "description": "false"
+                    },
+                    {
+                      "type": "textReadability",
+                      "description": "true"
+                    },
+                    {
+                      "type": "pageTitle",
+                      "description": ""
+                    },
+                    {
+                      "type": "finalUrl",
+                      "description": "https://school-connect-enterprise.web.app/login"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3034,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-06T02:49:45.090Z",
+                      "annotations": [
+                        {
+                          "type": "viewport",
+                          "description": "1536x864"
+                        },
+                        {
+                          "type": "loaded",
+                          "description": "true"
+                        },
+                        {
+                          "type": "authRequired",
+                          "description": "true"
+                        },
+                        {
+                          "type": "horizontalScrollbar",
+                          "description": "false"
+                        },
+                        {
+                          "type": "overflowIssues",
+                          "description": "None"
+                        },
+                        {
+                          "type": "navRenders",
+                          "description": "false"
+                        },
+                        {
+                          "type": "textReadability",
+                          "description": "true"
+                        },
+                        {
+                          "type": "pageTitle",
+                          "description": ""
+                        },
+                        {
+                          "type": "finalUrl",
+                          "description": "https://school-connect-enterprise.web.app/login"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f8ec5535fe8a34bc67e0-e5063762cc5a4c537689",
+              "file": "viewport-responsive.spec.ts",
+              "line": 324,
+              "column": 9
+            },
+            {
+              "title": "/login page - Desktop-1536x864",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "viewport",
+                      "description": "1536x864"
+                    },
+                    {
+                      "type": "loaded",
+                      "description": "true"
+                    },
+                    {
+                      "type": "authRequired",
+                      "description": "true"
+                    },
+                    {
+                      "type": "horizontalScrollbar",
+                      "description": "false"
+                    },
+                    {
+                      "type": "overflowIssues",
+                      "description": "None"
+                    },
+                    {
+                      "type": "navRenders",
+                      "description": "false"
+                    },
+                    {
+                      "type": "textReadability",
+                      "description": "true"
+                    },
+                    {
+                      "type": "pageTitle",
+                      "description": ""
+                    },
+                    {
+                      "type": "finalUrl",
+                      "description": "https://school-connect-enterprise.web.app/login"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3064,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-06T02:49:48.141Z",
+                      "annotations": [
+                        {
+                          "type": "viewport",
+                          "description": "1536x864"
+                        },
+                        {
+                          "type": "loaded",
+                          "description": "true"
+                        },
+                        {
+                          "type": "authRequired",
+                          "description": "true"
+                        },
+                        {
+                          "type": "horizontalScrollbar",
+                          "description": "false"
+                        },
+                        {
+                          "type": "overflowIssues",
+                          "description": "None"
+                        },
+                        {
+                          "type": "navRenders",
+                          "description": "false"
+                        },
+                        {
+                          "type": "textReadability",
+                          "description": "true"
+                        },
+                        {
+                          "type": "pageTitle",
+                          "description": ""
+                        },
+                        {
+                          "type": "finalUrl",
+                          "description": "https://school-connect-enterprise.web.app/login"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f8ec5535fe8a34bc67e0-aab659b39d0c105aa74a",
+              "file": "viewport-responsive.spec.ts",
+              "line": 347,
+              "column": 9
+            }
+          ]
+        },
+        {
+          "title": "Viewport: Desktop-1920x1080 (Desktop)",
+          "file": "viewport-responsive.spec.ts",
+          "line": 280,
+          "column": 8,
+          "specs": [
+            {
+              "title": "Landing page - Desktop-1920x1080",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "viewport",
+                      "description": "1920x1080"
+                    },
+                    {
+                      "type": "category",
+                      "description": "Desktop"
+                    },
+                    {
+                      "type": "horizontalScrollbar",
+                      "description": "false"
+                    },
+                    {
+                      "type": "overflowIssues",
+                      "description": "None"
+                    },
+                    {
+                      "type": "navRenders",
+                      "description": "false"
+                    },
+                    {
+                      "type": "navIssues",
+                      "description": "No navigation element found"
+                    },
+                    {
+                      "type": "textReadability",
+                      "description": "true"
+                    },
+                    {
+                      "type": "pageTitle",
+                      "description": ""
+                    },
+                    {
+                      "type": "finalUrl",
+                      "description": "https://school-connect-enterprise.web.app/login"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3386,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-06T02:49:51.249Z",
+                      "annotations": [
+                        {
+                          "type": "viewport",
+                          "description": "1920x1080"
+                        },
+                        {
+                          "type": "category",
+                          "description": "Desktop"
+                        },
+                        {
+                          "type": "horizontalScrollbar",
+                          "description": "false"
+                        },
+                        {
+                          "type": "overflowIssues",
+                          "description": "None"
+                        },
+                        {
+                          "type": "navRenders",
+                          "description": "false"
+                        },
+                        {
+                          "type": "navIssues",
+                          "description": "No navigation element found"
+                        },
+                        {
+                          "type": "textReadability",
+                          "description": "true"
+                        },
+                        {
+                          "type": "pageTitle",
+                          "description": ""
+                        },
+                        {
+                          "type": "finalUrl",
+                          "description": "https://school-connect-enterprise.web.app/login"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f8ec5535fe8a34bc67e0-5d937a185a7662bab7a4",
+              "file": "viewport-responsive.spec.ts",
+              "line": 298,
+              "column": 9
+            },
+            {
+              "title": "/admin page - Desktop-1920x1080",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "viewport",
+                      "description": "1920x1080"
+                    },
+                    {
+                      "type": "loaded",
+                      "description": "true"
+                    },
+                    {
+                      "type": "authRequired",
+                      "description": "true"
+                    },
+                    {
+                      "type": "horizontalScrollbar",
+                      "description": "false"
+                    },
+                    {
+                      "type": "overflowIssues",
+                      "description": "None"
+                    },
+                    {
+                      "type": "navRenders",
+                      "description": "false"
+                    },
+                    {
+                      "type": "textReadability",
+                      "description": "true"
+                    },
+                    {
+                      "type": "pageTitle",
+                      "description": ""
+                    },
+                    {
+                      "type": "finalUrl",
+                      "description": "https://school-connect-enterprise.web.app/login"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3080,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-06T02:49:54.688Z",
+                      "annotations": [
+                        {
+                          "type": "viewport",
+                          "description": "1920x1080"
+                        },
+                        {
+                          "type": "loaded",
+                          "description": "true"
+                        },
+                        {
+                          "type": "authRequired",
+                          "description": "true"
+                        },
+                        {
+                          "type": "horizontalScrollbar",
+                          "description": "false"
+                        },
+                        {
+                          "type": "overflowIssues",
+                          "description": "None"
+                        },
+                        {
+                          "type": "navRenders",
+                          "description": "false"
+                        },
+                        {
+                          "type": "textReadability",
+                          "description": "true"
+                        },
+                        {
+                          "type": "pageTitle",
+                          "description": ""
+                        },
+                        {
+                          "type": "finalUrl",
+                          "description": "https://school-connect-enterprise.web.app/login"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f8ec5535fe8a34bc67e0-382d81f3aa01fea76566",
+              "file": "viewport-responsive.spec.ts",
+              "line": 324,
+              "column": 9
+            },
+            {
+              "title": "/login page - Desktop-1920x1080",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "viewport",
+                      "description": "1920x1080"
+                    },
+                    {
+                      "type": "loaded",
+                      "description": "true"
+                    },
+                    {
+                      "type": "authRequired",
+                      "description": "true"
+                    },
+                    {
+                      "type": "horizontalScrollbar",
+                      "description": "false"
+                    },
+                    {
+                      "type": "overflowIssues",
+                      "description": "None"
+                    },
+                    {
+                      "type": "navRenders",
+                      "description": "false"
+                    },
+                    {
+                      "type": "textReadability",
+                      "description": "true"
+                    },
+                    {
+                      "type": "pageTitle",
+                      "description": ""
+                    },
+                    {
+                      "type": "finalUrl",
+                      "description": "https://school-connect-enterprise.web.app/login"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3077,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-06T02:49:57.778Z",
+                      "annotations": [
+                        {
+                          "type": "viewport",
+                          "description": "1920x1080"
+                        },
+                        {
+                          "type": "loaded",
+                          "description": "true"
+                        },
+                        {
+                          "type": "authRequired",
+                          "description": "true"
+                        },
+                        {
+                          "type": "horizontalScrollbar",
+                          "description": "false"
+                        },
+                        {
+                          "type": "overflowIssues",
+                          "description": "None"
+                        },
+                        {
+                          "type": "navRenders",
+                          "description": "false"
+                        },
+                        {
+                          "type": "textReadability",
+                          "description": "true"
+                        },
+                        {
+                          "type": "pageTitle",
+                          "description": ""
+                        },
+                        {
+                          "type": "finalUrl",
+                          "description": "https://school-connect-enterprise.web.app/login"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f8ec5535fe8a34bc67e0-dd7f0c628677edfacbd1",
+              "file": "viewport-responsive.spec.ts",
+              "line": 347,
+              "column": 9
+            }
+          ]
+        },
+        {
+          "title": "Viewport: Desktop-2560x1440 (Desktop)",
+          "file": "viewport-responsive.spec.ts",
+          "line": 280,
+          "column": 8,
+          "specs": [
+            {
+              "title": "Landing page - Desktop-2560x1440",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "viewport",
+                      "description": "2560x1440"
+                    },
+                    {
+                      "type": "category",
+                      "description": "Desktop"
+                    },
+                    {
+                      "type": "horizontalScrollbar",
+                      "description": "false"
+                    },
+                    {
+                      "type": "overflowIssues",
+                      "description": "None"
+                    },
+                    {
+                      "type": "navRenders",
+                      "description": "false"
+                    },
+                    {
+                      "type": "navIssues",
+                      "description": "No navigation element found"
+                    },
+                    {
+                      "type": "textReadability",
+                      "description": "true"
+                    },
+                    {
+                      "type": "pageTitle",
+                      "description": ""
+                    },
+                    {
+                      "type": "finalUrl",
+                      "description": "https://school-connect-enterprise.web.app/login"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4025,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-06T02:50:00.893Z",
+                      "annotations": [
+                        {
+                          "type": "viewport",
+                          "description": "2560x1440"
+                        },
+                        {
+                          "type": "category",
+                          "description": "Desktop"
+                        },
+                        {
+                          "type": "horizontalScrollbar",
+                          "description": "false"
+                        },
+                        {
+                          "type": "overflowIssues",
+                          "description": "None"
+                        },
+                        {
+                          "type": "navRenders",
+                          "description": "false"
+                        },
+                        {
+                          "type": "navIssues",
+                          "description": "No navigation element found"
+                        },
+                        {
+                          "type": "textReadability",
+                          "description": "true"
+                        },
+                        {
+                          "type": "pageTitle",
+                          "description": ""
+                        },
+                        {
+                          "type": "finalUrl",
+                          "description": "https://school-connect-enterprise.web.app/login"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f8ec5535fe8a34bc67e0-3124eba5ad63286b9a88",
+              "file": "viewport-responsive.spec.ts",
+              "line": 298,
+              "column": 9
+            },
+            {
+              "title": "/admin page - Desktop-2560x1440",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "viewport",
+                      "description": "2560x1440"
+                    },
+                    {
+                      "type": "loaded",
+                      "description": "true"
+                    },
+                    {
+                      "type": "authRequired",
+                      "description": "true"
+                    },
+                    {
+                      "type": "horizontalScrollbar",
+                      "description": "false"
+                    },
+                    {
+                      "type": "overflowIssues",
+                      "description": "None"
+                    },
+                    {
+                      "type": "navRenders",
+                      "description": "false"
+                    },
+                    {
+                      "type": "textReadability",
+                      "description": "true"
+                    },
+                    {
+                      "type": "pageTitle",
+                      "description": ""
+                    },
+                    {
+                      "type": "finalUrl",
+                      "description": "https://school-connect-enterprise.web.app/login"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3231,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-06T02:50:04.971Z",
+                      "annotations": [
+                        {
+                          "type": "viewport",
+                          "description": "2560x1440"
+                        },
+                        {
+                          "type": "loaded",
+                          "description": "true"
+                        },
+                        {
+                          "type": "authRequired",
+                          "description": "true"
+                        },
+                        {
+                          "type": "horizontalScrollbar",
+                          "description": "false"
+                        },
+                        {
+                          "type": "overflowIssues",
+                          "description": "None"
+                        },
+                        {
+                          "type": "navRenders",
+                          "description": "false"
+                        },
+                        {
+                          "type": "textReadability",
+                          "description": "true"
+                        },
+                        {
+                          "type": "pageTitle",
+                          "description": ""
+                        },
+                        {
+                          "type": "finalUrl",
+                          "description": "https://school-connect-enterprise.web.app/login"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f8ec5535fe8a34bc67e0-f9a697eb68a034c4584d",
+              "file": "viewport-responsive.spec.ts",
+              "line": 324,
+              "column": 9
+            },
+            {
+              "title": "/login page - Desktop-2560x1440",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "viewport",
+                      "description": "2560x1440"
+                    },
+                    {
+                      "type": "loaded",
+                      "description": "true"
+                    },
+                    {
+                      "type": "authRequired",
+                      "description": "true"
+                    },
+                    {
+                      "type": "horizontalScrollbar",
+                      "description": "false"
+                    },
+                    {
+                      "type": "overflowIssues",
+                      "description": "None"
+                    },
+                    {
+                      "type": "navRenders",
+                      "description": "false"
+                    },
+                    {
+                      "type": "textReadability",
+                      "description": "true"
+                    },
+                    {
+                      "type": "pageTitle",
+                      "description": ""
+                    },
+                    {
+                      "type": "finalUrl",
+                      "description": "https://school-connect-enterprise.web.app/login"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3192,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-06T02:50:08.212Z",
+                      "annotations": [
+                        {
+                          "type": "viewport",
+                          "description": "2560x1440"
+                        },
+                        {
+                          "type": "loaded",
+                          "description": "true"
+                        },
+                        {
+                          "type": "authRequired",
+                          "description": "true"
+                        },
+                        {
+                          "type": "horizontalScrollbar",
+                          "description": "false"
+                        },
+                        {
+                          "type": "overflowIssues",
+                          "description": "None"
+                        },
+                        {
+                          "type": "navRenders",
+                          "description": "false"
+                        },
+                        {
+                          "type": "textReadability",
+                          "description": "true"
+                        },
+                        {
+                          "type": "pageTitle",
+                          "description": ""
+                        },
+                        {
+                          "type": "finalUrl",
+                          "description": "https://school-connect-enterprise.web.app/login"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f8ec5535fe8a34bc67e0-4d8e1802ffdd0996612c",
+              "file": "viewport-responsive.spec.ts",
+              "line": 347,
+              "column": 9
+            }
+          ]
+        },
+        {
+          "title": "Viewport: Tablet-768x1024 (Tablet)",
+          "file": "viewport-responsive.spec.ts",
+          "line": 280,
+          "column": 8,
+          "specs": [
+            {
+              "title": "Landing page - Tablet-768x1024",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "viewport",
+                      "description": "768x1024"
+                    },
+                    {
+                      "type": "category",
+                      "description": "Tablet"
+                    },
+                    {
+                      "type": "horizontalScrollbar",
+                      "description": "false"
+                    },
+                    {
+                      "type": "overflowIssues",
+                      "description": "None"
+                    },
+                    {
+                      "type": "navRenders",
+                      "description": "false"
+                    },
+                    {
+                      "type": "navIssues",
+                      "description": "No navigation element found"
+                    },
+                    {
+                      "type": "textReadability",
+                      "description": "true"
+                    },
+                    {
+                      "type": "pageTitle",
+                      "description": ""
+                    },
+                    {
+                      "type": "finalUrl",
+                      "description": "https://school-connect-enterprise.web.app/login"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3444,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-06T02:50:11.438Z",
+                      "annotations": [
+                        {
+                          "type": "viewport",
+                          "description": "768x1024"
+                        },
+                        {
+                          "type": "category",
+                          "description": "Tablet"
+                        },
+                        {
+                          "type": "horizontalScrollbar",
+                          "description": "false"
+                        },
+                        {
+                          "type": "overflowIssues",
+                          "description": "None"
+                        },
+                        {
+                          "type": "navRenders",
+                          "description": "false"
+                        },
+                        {
+                          "type": "navIssues",
+                          "description": "No navigation element found"
+                        },
+                        {
+                          "type": "textReadability",
+                          "description": "true"
+                        },
+                        {
+                          "type": "pageTitle",
+                          "description": ""
+                        },
+                        {
+                          "type": "finalUrl",
+                          "description": "https://school-connect-enterprise.web.app/login"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f8ec5535fe8a34bc67e0-6a1a2aa30ae00160b9dc",
+              "file": "viewport-responsive.spec.ts",
+              "line": 298,
+              "column": 9
+            },
+            {
+              "title": "/admin page - Tablet-768x1024",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "viewport",
+                      "description": "768x1024"
+                    },
+                    {
+                      "type": "loaded",
+                      "description": "true"
+                    },
+                    {
+                      "type": "authRequired",
+                      "description": "true"
+                    },
+                    {
+                      "type": "horizontalScrollbar",
+                      "description": "false"
+                    },
+                    {
+                      "type": "overflowIssues",
+                      "description": "None"
+                    },
+                    {
+                      "type": "navRenders",
+                      "description": "false"
+                    },
+                    {
+                      "type": "textReadability",
+                      "description": "true"
+                    },
+                    {
+                      "type": "pageTitle",
+                      "description": ""
+                    },
+                    {
+                      "type": "finalUrl",
+                      "description": "https://school-connect-enterprise.web.app/login"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2901,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-06T02:50:14.941Z",
+                      "annotations": [
+                        {
+                          "type": "viewport",
+                          "description": "768x1024"
+                        },
+                        {
+                          "type": "loaded",
+                          "description": "true"
+                        },
+                        {
+                          "type": "authRequired",
+                          "description": "true"
+                        },
+                        {
+                          "type": "horizontalScrollbar",
+                          "description": "false"
+                        },
+                        {
+                          "type": "overflowIssues",
+                          "description": "None"
+                        },
+                        {
+                          "type": "navRenders",
+                          "description": "false"
+                        },
+                        {
+                          "type": "textReadability",
+                          "description": "true"
+                        },
+                        {
+                          "type": "pageTitle",
+                          "description": ""
+                        },
+                        {
+                          "type": "finalUrl",
+                          "description": "https://school-connect-enterprise.web.app/login"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f8ec5535fe8a34bc67e0-360aa588d5ea6542c0e8",
+              "file": "viewport-responsive.spec.ts",
+              "line": 324,
+              "column": 9
+            },
+            {
+              "title": "/login page - Tablet-768x1024",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "viewport",
+                      "description": "768x1024"
+                    },
+                    {
+                      "type": "loaded",
+                      "description": "true"
+                    },
+                    {
+                      "type": "authRequired",
+                      "description": "true"
+                    },
+                    {
+                      "type": "horizontalScrollbar",
+                      "description": "false"
+                    },
+                    {
+                      "type": "overflowIssues",
+                      "description": "None"
+                    },
+                    {
+                      "type": "navRenders",
+                      "description": "false"
+                    },
+                    {
+                      "type": "textReadability",
+                      "description": "true"
+                    },
+                    {
+                      "type": "pageTitle",
+                      "description": ""
+                    },
+                    {
+                      "type": "finalUrl",
+                      "description": "https://school-connect-enterprise.web.app/login"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2856,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-06T02:50:17.852Z",
+                      "annotations": [
+                        {
+                          "type": "viewport",
+                          "description": "768x1024"
+                        },
+                        {
+                          "type": "loaded",
+                          "description": "true"
+                        },
+                        {
+                          "type": "authRequired",
+                          "description": "true"
+                        },
+                        {
+                          "type": "horizontalScrollbar",
+                          "description": "false"
+                        },
+                        {
+                          "type": "overflowIssues",
+                          "description": "None"
+                        },
+                        {
+                          "type": "navRenders",
+                          "description": "false"
+                        },
+                        {
+                          "type": "textReadability",
+                          "description": "true"
+                        },
+                        {
+                          "type": "pageTitle",
+                          "description": ""
+                        },
+                        {
+                          "type": "finalUrl",
+                          "description": "https://school-connect-enterprise.web.app/login"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f8ec5535fe8a34bc67e0-46c8c187d2c89c929b3c",
+              "file": "viewport-responsive.spec.ts",
+              "line": 347,
+              "column": 9
+            }
+          ]
+        },
+        {
+          "title": "Viewport: Tablet-1024x768 (Tablet)",
+          "file": "viewport-responsive.spec.ts",
+          "line": 280,
+          "column": 8,
+          "specs": [
+            {
+              "title": "Landing page - Tablet-1024x768",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "viewport",
+                      "description": "1024x768"
+                    },
+                    {
+                      "type": "category",
+                      "description": "Tablet"
+                    },
+                    {
+                      "type": "horizontalScrollbar",
+                      "description": "false"
+                    },
+                    {
+                      "type": "overflowIssues",
+                      "description": "None"
+                    },
+                    {
+                      "type": "navRenders",
+                      "description": "false"
+                    },
+                    {
+                      "type": "navIssues",
+                      "description": "No navigation element found"
+                    },
+                    {
+                      "type": "textReadability",
+                      "description": "true"
+                    },
+                    {
+                      "type": "pageTitle",
+                      "description": ""
+                    },
+                    {
+                      "type": "finalUrl",
+                      "description": "https://school-connect-enterprise.web.app/login"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3542,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-06T02:50:20.734Z",
+                      "annotations": [
+                        {
+                          "type": "viewport",
+                          "description": "1024x768"
+                        },
+                        {
+                          "type": "category",
+                          "description": "Tablet"
+                        },
+                        {
+                          "type": "horizontalScrollbar",
+                          "description": "false"
+                        },
+                        {
+                          "type": "overflowIssues",
+                          "description": "None"
+                        },
+                        {
+                          "type": "navRenders",
+                          "description": "false"
+                        },
+                        {
+                          "type": "navIssues",
+                          "description": "No navigation element found"
+                        },
+                        {
+                          "type": "textReadability",
+                          "description": "true"
+                        },
+                        {
+                          "type": "pageTitle",
+                          "description": ""
+                        },
+                        {
+                          "type": "finalUrl",
+                          "description": "https://school-connect-enterprise.web.app/login"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f8ec5535fe8a34bc67e0-f2fe09b0957f8ebd327d",
+              "file": "viewport-responsive.spec.ts",
+              "line": 298,
+              "column": 9
+            },
+            {
+              "title": "/admin page - Tablet-1024x768",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "viewport",
+                      "description": "1024x768"
+                    },
+                    {
+                      "type": "loaded",
+                      "description": "true"
+                    },
+                    {
+                      "type": "authRequired",
+                      "description": "true"
+                    },
+                    {
+                      "type": "horizontalScrollbar",
+                      "description": "false"
+                    },
+                    {
+                      "type": "overflowIssues",
+                      "description": "None"
+                    },
+                    {
+                      "type": "navRenders",
+                      "description": "false"
+                    },
+                    {
+                      "type": "textReadability",
+                      "description": "true"
+                    },
+                    {
+                      "type": "pageTitle",
+                      "description": ""
+                    },
+                    {
+                      "type": "finalUrl",
+                      "description": "https://school-connect-enterprise.web.app/login"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2974,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-06T02:50:24.330Z",
+                      "annotations": [
+                        {
+                          "type": "viewport",
+                          "description": "1024x768"
+                        },
+                        {
+                          "type": "loaded",
+                          "description": "true"
+                        },
+                        {
+                          "type": "authRequired",
+                          "description": "true"
+                        },
+                        {
+                          "type": "horizontalScrollbar",
+                          "description": "false"
+                        },
+                        {
+                          "type": "overflowIssues",
+                          "description": "None"
+                        },
+                        {
+                          "type": "navRenders",
+                          "description": "false"
+                        },
+                        {
+                          "type": "textReadability",
+                          "description": "true"
+                        },
+                        {
+                          "type": "pageTitle",
+                          "description": ""
+                        },
+                        {
+                          "type": "finalUrl",
+                          "description": "https://school-connect-enterprise.web.app/login"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f8ec5535fe8a34bc67e0-119cb21711f454df47b0",
+              "file": "viewport-responsive.spec.ts",
+              "line": 324,
+              "column": 9
+            },
+            {
+              "title": "/login page - Tablet-1024x768",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "viewport",
+                      "description": "1024x768"
+                    },
+                    {
+                      "type": "loaded",
+                      "description": "true"
+                    },
+                    {
+                      "type": "authRequired",
+                      "description": "true"
+                    },
+                    {
+                      "type": "horizontalScrollbar",
+                      "description": "false"
+                    },
+                    {
+                      "type": "overflowIssues",
+                      "description": "None"
+                    },
+                    {
+                      "type": "navRenders",
+                      "description": "false"
+                    },
+                    {
+                      "type": "textReadability",
+                      "description": "true"
+                    },
+                    {
+                      "type": "pageTitle",
+                      "description": ""
+                    },
+                    {
+                      "type": "finalUrl",
+                      "description": "https://school-connect-enterprise.web.app/login"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2942,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-06T02:50:27.313Z",
+                      "annotations": [
+                        {
+                          "type": "viewport",
+                          "description": "1024x768"
+                        },
+                        {
+                          "type": "loaded",
+                          "description": "true"
+                        },
+                        {
+                          "type": "authRequired",
+                          "description": "true"
+                        },
+                        {
+                          "type": "horizontalScrollbar",
+                          "description": "false"
+                        },
+                        {
+                          "type": "overflowIssues",
+                          "description": "None"
+                        },
+                        {
+                          "type": "navRenders",
+                          "description": "false"
+                        },
+                        {
+                          "type": "textReadability",
+                          "description": "true"
+                        },
+                        {
+                          "type": "pageTitle",
+                          "description": ""
+                        },
+                        {
+                          "type": "finalUrl",
+                          "description": "https://school-connect-enterprise.web.app/login"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f8ec5535fe8a34bc67e0-01127af47bff4b617ad8",
+              "file": "viewport-responsive.spec.ts",
+              "line": 347,
+              "column": 9
+            }
+          ]
+        },
+        {
+          "title": "Viewport: Tablet-1280x800 (Tablet)",
+          "file": "viewport-responsive.spec.ts",
+          "line": 280,
+          "column": 8,
+          "specs": [
+            {
+              "title": "Landing page - Tablet-1280x800",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "viewport",
+                      "description": "1280x800"
+                    },
+                    {
+                      "type": "category",
+                      "description": "Tablet"
+                    },
+                    {
+                      "type": "horizontalScrollbar",
+                      "description": "false"
+                    },
+                    {
+                      "type": "overflowIssues",
+                      "description": "None"
+                    },
+                    {
+                      "type": "navRenders",
+                      "description": "false"
+                    },
+                    {
+                      "type": "navIssues",
+                      "description": "No navigation element found"
+                    },
+                    {
+                      "type": "textReadability",
+                      "description": "true"
+                    },
+                    {
+                      "type": "pageTitle",
+                      "description": ""
+                    },
+                    {
+                      "type": "finalUrl",
+                      "description": "https://school-connect-enterprise.web.app/login"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3381,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-06T02:50:30.284Z",
+                      "annotations": [
+                        {
+                          "type": "viewport",
+                          "description": "1280x800"
+                        },
+                        {
+                          "type": "category",
+                          "description": "Tablet"
+                        },
+                        {
+                          "type": "horizontalScrollbar",
+                          "description": "false"
+                        },
+                        {
+                          "type": "overflowIssues",
+                          "description": "None"
+                        },
+                        {
+                          "type": "navRenders",
+                          "description": "false"
+                        },
+                        {
+                          "type": "navIssues",
+                          "description": "No navigation element found"
+                        },
+                        {
+                          "type": "textReadability",
+                          "description": "true"
+                        },
+                        {
+                          "type": "pageTitle",
+                          "description": ""
+                        },
+                        {
+                          "type": "finalUrl",
+                          "description": "https://school-connect-enterprise.web.app/login"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f8ec5535fe8a34bc67e0-fc66a6711b20c6dd53da",
+              "file": "viewport-responsive.spec.ts",
+              "line": 298,
+              "column": 9
+            },
+            {
+              "title": "/admin page - Tablet-1280x800",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "viewport",
+                      "description": "1280x800"
+                    },
+                    {
+                      "type": "loaded",
+                      "description": "true"
+                    },
+                    {
+                      "type": "authRequired",
+                      "description": "true"
+                    },
+                    {
+                      "type": "horizontalScrollbar",
+                      "description": "false"
+                    },
+                    {
+                      "type": "overflowIssues",
+                      "description": "None"
+                    },
+                    {
+                      "type": "navRenders",
+                      "description": "false"
+                    },
+                    {
+                      "type": "textReadability",
+                      "description": "true"
+                    },
+                    {
+                      "type": "pageTitle",
+                      "description": ""
+                    },
+                    {
+                      "type": "finalUrl",
+                      "description": "https://school-connect-enterprise.web.app/login"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3031,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-06T02:50:33.713Z",
+                      "annotations": [
+                        {
+                          "type": "viewport",
+                          "description": "1280x800"
+                        },
+                        {
+                          "type": "loaded",
+                          "description": "true"
+                        },
+                        {
+                          "type": "authRequired",
+                          "description": "true"
+                        },
+                        {
+                          "type": "horizontalScrollbar",
+                          "description": "false"
+                        },
+                        {
+                          "type": "overflowIssues",
+                          "description": "None"
+                        },
+                        {
+                          "type": "navRenders",
+                          "description": "false"
+                        },
+                        {
+                          "type": "textReadability",
+                          "description": "true"
+                        },
+                        {
+                          "type": "pageTitle",
+                          "description": ""
+                        },
+                        {
+                          "type": "finalUrl",
+                          "description": "https://school-connect-enterprise.web.app/login"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f8ec5535fe8a34bc67e0-da729685e9eb12c306a6",
+              "file": "viewport-responsive.spec.ts",
+              "line": 324,
+              "column": 9
+            },
+            {
+              "title": "/login page - Tablet-1280x800",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "viewport",
+                      "description": "1280x800"
+                    },
+                    {
+                      "type": "loaded",
+                      "description": "true"
+                    },
+                    {
+                      "type": "authRequired",
+                      "description": "true"
+                    },
+                    {
+                      "type": "horizontalScrollbar",
+                      "description": "false"
+                    },
+                    {
+                      "type": "overflowIssues",
+                      "description": "None"
+                    },
+                    {
+                      "type": "navRenders",
+                      "description": "false"
+                    },
+                    {
+                      "type": "textReadability",
+                      "description": "true"
+                    },
+                    {
+                      "type": "pageTitle",
+                      "description": ""
+                    },
+                    {
+                      "type": "finalUrl",
+                      "description": "https://school-connect-enterprise.web.app/login"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3056,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-06T02:50:36.753Z",
+                      "annotations": [
+                        {
+                          "type": "viewport",
+                          "description": "1280x800"
+                        },
+                        {
+                          "type": "loaded",
+                          "description": "true"
+                        },
+                        {
+                          "type": "authRequired",
+                          "description": "true"
+                        },
+                        {
+                          "type": "horizontalScrollbar",
+                          "description": "false"
+                        },
+                        {
+                          "type": "overflowIssues",
+                          "description": "None"
+                        },
+                        {
+                          "type": "navRenders",
+                          "description": "false"
+                        },
+                        {
+                          "type": "textReadability",
+                          "description": "true"
+                        },
+                        {
+                          "type": "pageTitle",
+                          "description": ""
+                        },
+                        {
+                          "type": "finalUrl",
+                          "description": "https://school-connect-enterprise.web.app/login"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f8ec5535fe8a34bc67e0-664f79ffbf0253bbb898",
+              "file": "viewport-responsive.spec.ts",
+              "line": 347,
+              "column": 9
+            }
+          ]
+        },
+        {
+          "title": "Viewport: Mobile-375x667 (Mobile)",
+          "file": "viewport-responsive.spec.ts",
+          "line": 280,
+          "column": 8,
+          "specs": [
+            {
+              "title": "Landing page - Mobile-375x667",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "viewport",
+                      "description": "375x667"
+                    },
+                    {
+                      "type": "category",
+                      "description": "Mobile"
+                    },
+                    {
+                      "type": "horizontalScrollbar",
+                      "description": "false"
+                    },
+                    {
+                      "type": "overflowIssues",
+                      "description": "None"
+                    },
+                    {
+                      "type": "navRenders",
+                      "description": "false"
+                    },
+                    {
+                      "type": "navIssues",
+                      "description": "No navigation element found"
+                    },
+                    {
+                      "type": "textReadability",
+                      "description": "true"
+                    },
+                    {
+                      "type": "pageTitle",
+                      "description": ""
+                    },
+                    {
+                      "type": "finalUrl",
+                      "description": "https://school-connect-enterprise.web.app/login"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3294,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-06T02:50:39.834Z",
+                      "annotations": [
+                        {
+                          "type": "viewport",
+                          "description": "375x667"
+                        },
+                        {
+                          "type": "category",
+                          "description": "Mobile"
+                        },
+                        {
+                          "type": "horizontalScrollbar",
+                          "description": "false"
+                        },
+                        {
+                          "type": "overflowIssues",
+                          "description": "None"
+                        },
+                        {
+                          "type": "navRenders",
+                          "description": "false"
+                        },
+                        {
+                          "type": "navIssues",
+                          "description": "No navigation element found"
+                        },
+                        {
+                          "type": "textReadability",
+                          "description": "true"
+                        },
+                        {
+                          "type": "pageTitle",
+                          "description": ""
+                        },
+                        {
+                          "type": "finalUrl",
+                          "description": "https://school-connect-enterprise.web.app/login"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f8ec5535fe8a34bc67e0-d51192ea750385880077",
+              "file": "viewport-responsive.spec.ts",
+              "line": 298,
+              "column": 9
+            },
+            {
+              "title": "/admin page - Mobile-375x667",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "viewport",
+                      "description": "375x667"
+                    },
+                    {
+                      "type": "loaded",
+                      "description": "true"
+                    },
+                    {
+                      "type": "authRequired",
+                      "description": "true"
+                    },
+                    {
+                      "type": "horizontalScrollbar",
+                      "description": "false"
+                    },
+                    {
+                      "type": "overflowIssues",
+                      "description": "None"
+                    },
+                    {
+                      "type": "navRenders",
+                      "description": "false"
+                    },
+                    {
+                      "type": "textReadability",
+                      "description": "true"
+                    },
+                    {
+                      "type": "pageTitle",
+                      "description": ""
+                    },
+                    {
+                      "type": "finalUrl",
+                      "description": "https://school-connect-enterprise.web.app/login"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2790,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-06T02:50:43.177Z",
+                      "annotations": [
+                        {
+                          "type": "viewport",
+                          "description": "375x667"
+                        },
+                        {
+                          "type": "loaded",
+                          "description": "true"
+                        },
+                        {
+                          "type": "authRequired",
+                          "description": "true"
+                        },
+                        {
+                          "type": "horizontalScrollbar",
+                          "description": "false"
+                        },
+                        {
+                          "type": "overflowIssues",
+                          "description": "None"
+                        },
+                        {
+                          "type": "navRenders",
+                          "description": "false"
+                        },
+                        {
+                          "type": "textReadability",
+                          "description": "true"
+                        },
+                        {
+                          "type": "pageTitle",
+                          "description": ""
+                        },
+                        {
+                          "type": "finalUrl",
+                          "description": "https://school-connect-enterprise.web.app/login"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f8ec5535fe8a34bc67e0-f961379aa0276bfbfffb",
+              "file": "viewport-responsive.spec.ts",
+              "line": 324,
+              "column": 9
+            },
+            {
+              "title": "/login page - Mobile-375x667",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "viewport",
+                      "description": "375x667"
+                    },
+                    {
+                      "type": "loaded",
+                      "description": "true"
+                    },
+                    {
+                      "type": "authRequired",
+                      "description": "true"
+                    },
+                    {
+                      "type": "horizontalScrollbar",
+                      "description": "false"
+                    },
+                    {
+                      "type": "overflowIssues",
+                      "description": "None"
+                    },
+                    {
+                      "type": "navRenders",
+                      "description": "false"
+                    },
+                    {
+                      "type": "textReadability",
+                      "description": "true"
+                    },
+                    {
+                      "type": "pageTitle",
+                      "description": ""
+                    },
+                    {
+                      "type": "finalUrl",
+                      "description": "https://school-connect-enterprise.web.app/login"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2776,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-06T02:50:45.977Z",
+                      "annotations": [
+                        {
+                          "type": "viewport",
+                          "description": "375x667"
+                        },
+                        {
+                          "type": "loaded",
+                          "description": "true"
+                        },
+                        {
+                          "type": "authRequired",
+                          "description": "true"
+                        },
+                        {
+                          "type": "horizontalScrollbar",
+                          "description": "false"
+                        },
+                        {
+                          "type": "overflowIssues",
+                          "description": "None"
+                        },
+                        {
+                          "type": "navRenders",
+                          "description": "false"
+                        },
+                        {
+                          "type": "textReadability",
+                          "description": "true"
+                        },
+                        {
+                          "type": "pageTitle",
+                          "description": ""
+                        },
+                        {
+                          "type": "finalUrl",
+                          "description": "https://school-connect-enterprise.web.app/login"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f8ec5535fe8a34bc67e0-bd467dfb952dfd59f544",
+              "file": "viewport-responsive.spec.ts",
+              "line": 347,
+              "column": 9
+            }
+          ]
+        },
+        {
+          "title": "Viewport: Mobile-390x844 (Mobile)",
+          "file": "viewport-responsive.spec.ts",
+          "line": 280,
+          "column": 8,
+          "specs": [
+            {
+              "title": "Landing page - Mobile-390x844",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "viewport",
+                      "description": "390x844"
+                    },
+                    {
+                      "type": "category",
+                      "description": "Mobile"
+                    },
+                    {
+                      "type": "horizontalScrollbar",
+                      "description": "false"
+                    },
+                    {
+                      "type": "overflowIssues",
+                      "description": "None"
+                    },
+                    {
+                      "type": "navRenders",
+                      "description": "false"
+                    },
+                    {
+                      "type": "navIssues",
+                      "description": "No navigation element found"
+                    },
+                    {
+                      "type": "textReadability",
+                      "description": "true"
+                    },
+                    {
+                      "type": "pageTitle",
+                      "description": ""
+                    },
+                    {
+                      "type": "finalUrl",
+                      "description": "https://school-connect-enterprise.web.app/login"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3260,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-06T02:50:48.779Z",
+                      "annotations": [
+                        {
+                          "type": "viewport",
+                          "description": "390x844"
+                        },
+                        {
+                          "type": "category",
+                          "description": "Mobile"
+                        },
+                        {
+                          "type": "horizontalScrollbar",
+                          "description": "false"
+                        },
+                        {
+                          "type": "overflowIssues",
+                          "description": "None"
+                        },
+                        {
+                          "type": "navRenders",
+                          "description": "false"
+                        },
+                        {
+                          "type": "navIssues",
+                          "description": "No navigation element found"
+                        },
+                        {
+                          "type": "textReadability",
+                          "description": "true"
+                        },
+                        {
+                          "type": "pageTitle",
+                          "description": ""
+                        },
+                        {
+                          "type": "finalUrl",
+                          "description": "https://school-connect-enterprise.web.app/login"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f8ec5535fe8a34bc67e0-6d46143f3050404ce055",
+              "file": "viewport-responsive.spec.ts",
+              "line": 298,
+              "column": 9
+            },
+            {
+              "title": "/admin page - Mobile-390x844",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "viewport",
+                      "description": "390x844"
+                    },
+                    {
+                      "type": "loaded",
+                      "description": "true"
+                    },
+                    {
+                      "type": "authRequired",
+                      "description": "true"
+                    },
+                    {
+                      "type": "horizontalScrollbar",
+                      "description": "false"
+                    },
+                    {
+                      "type": "overflowIssues",
+                      "description": "None"
+                    },
+                    {
+                      "type": "navRenders",
+                      "description": "false"
+                    },
+                    {
+                      "type": "textReadability",
+                      "description": "true"
+                    },
+                    {
+                      "type": "pageTitle",
+                      "description": ""
+                    },
+                    {
+                      "type": "finalUrl",
+                      "description": "https://school-connect-enterprise.web.app/login"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2801,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-06T02:50:52.086Z",
+                      "annotations": [
+                        {
+                          "type": "viewport",
+                          "description": "390x844"
+                        },
+                        {
+                          "type": "loaded",
+                          "description": "true"
+                        },
+                        {
+                          "type": "authRequired",
+                          "description": "true"
+                        },
+                        {
+                          "type": "horizontalScrollbar",
+                          "description": "false"
+                        },
+                        {
+                          "type": "overflowIssues",
+                          "description": "None"
+                        },
+                        {
+                          "type": "navRenders",
+                          "description": "false"
+                        },
+                        {
+                          "type": "textReadability",
+                          "description": "true"
+                        },
+                        {
+                          "type": "pageTitle",
+                          "description": ""
+                        },
+                        {
+                          "type": "finalUrl",
+                          "description": "https://school-connect-enterprise.web.app/login"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f8ec5535fe8a34bc67e0-f4f0c6c6f03e0e4dfcec",
+              "file": "viewport-responsive.spec.ts",
+              "line": 324,
+              "column": 9
+            },
+            {
+              "title": "/login page - Mobile-390x844",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "viewport",
+                      "description": "390x844"
+                    },
+                    {
+                      "type": "loaded",
+                      "description": "true"
+                    },
+                    {
+                      "type": "authRequired",
+                      "description": "true"
+                    },
+                    {
+                      "type": "horizontalScrollbar",
+                      "description": "false"
+                    },
+                    {
+                      "type": "overflowIssues",
+                      "description": "None"
+                    },
+                    {
+                      "type": "navRenders",
+                      "description": "false"
+                    },
+                    {
+                      "type": "textReadability",
+                      "description": "true"
+                    },
+                    {
+                      "type": "pageTitle",
+                      "description": ""
+                    },
+                    {
+                      "type": "finalUrl",
+                      "description": "https://school-connect-enterprise.web.app/login"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2788,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-06T02:50:54.899Z",
+                      "annotations": [
+                        {
+                          "type": "viewport",
+                          "description": "390x844"
+                        },
+                        {
+                          "type": "loaded",
+                          "description": "true"
+                        },
+                        {
+                          "type": "authRequired",
+                          "description": "true"
+                        },
+                        {
+                          "type": "horizontalScrollbar",
+                          "description": "false"
+                        },
+                        {
+                          "type": "overflowIssues",
+                          "description": "None"
+                        },
+                        {
+                          "type": "navRenders",
+                          "description": "false"
+                        },
+                        {
+                          "type": "textReadability",
+                          "description": "true"
+                        },
+                        {
+                          "type": "pageTitle",
+                          "description": ""
+                        },
+                        {
+                          "type": "finalUrl",
+                          "description": "https://school-connect-enterprise.web.app/login"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f8ec5535fe8a34bc67e0-c83c8a6325471c82797b",
+              "file": "viewport-responsive.spec.ts",
+              "line": 347,
+              "column": 9
+            }
+          ]
+        },
+        {
+          "title": "Viewport: Mobile-414x896 (Mobile)",
+          "file": "viewport-responsive.spec.ts",
+          "line": 280,
+          "column": 8,
+          "specs": [
+            {
+              "title": "Landing page - Mobile-414x896",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "viewport",
+                      "description": "414x896"
+                    },
+                    {
+                      "type": "category",
+                      "description": "Mobile"
+                    },
+                    {
+                      "type": "horizontalScrollbar",
+                      "description": "false"
+                    },
+                    {
+                      "type": "overflowIssues",
+                      "description": "None"
+                    },
+                    {
+                      "type": "navRenders",
+                      "description": "false"
+                    },
+                    {
+                      "type": "navIssues",
+                      "description": "No navigation element found"
+                    },
+                    {
+                      "type": "textReadability",
+                      "description": "true"
+                    },
+                    {
+                      "type": "pageTitle",
+                      "description": ""
+                    },
+                    {
+                      "type": "finalUrl",
+                      "description": "https://school-connect-enterprise.web.app/login"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3210,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-06T02:50:57.713Z",
+                      "annotations": [
+                        {
+                          "type": "viewport",
+                          "description": "414x896"
+                        },
+                        {
+                          "type": "category",
+                          "description": "Mobile"
+                        },
+                        {
+                          "type": "horizontalScrollbar",
+                          "description": "false"
+                        },
+                        {
+                          "type": "overflowIssues",
+                          "description": "None"
+                        },
+                        {
+                          "type": "navRenders",
+                          "description": "false"
+                        },
+                        {
+                          "type": "navIssues",
+                          "description": "No navigation element found"
+                        },
+                        {
+                          "type": "textReadability",
+                          "description": "true"
+                        },
+                        {
+                          "type": "pageTitle",
+                          "description": ""
+                        },
+                        {
+                          "type": "finalUrl",
+                          "description": "https://school-connect-enterprise.web.app/login"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f8ec5535fe8a34bc67e0-e88b47f80b4383002d56",
+              "file": "viewport-responsive.spec.ts",
+              "line": 298,
+              "column": 9
+            },
+            {
+              "title": "/admin page - Mobile-414x896",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "viewport",
+                      "description": "414x896"
+                    },
+                    {
+                      "type": "loaded",
+                      "description": "true"
+                    },
+                    {
+                      "type": "authRequired",
+                      "description": "true"
+                    },
+                    {
+                      "type": "horizontalScrollbar",
+                      "description": "false"
+                    },
+                    {
+                      "type": "overflowIssues",
+                      "description": "None"
+                    },
+                    {
+                      "type": "navRenders",
+                      "description": "false"
+                    },
+                    {
+                      "type": "textReadability",
+                      "description": "true"
+                    },
+                    {
+                      "type": "pageTitle",
+                      "description": ""
+                    },
+                    {
+                      "type": "finalUrl",
+                      "description": "https://school-connect-enterprise.web.app/login"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2874,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-06T02:51:00.974Z",
+                      "annotations": [
+                        {
+                          "type": "viewport",
+                          "description": "414x896"
+                        },
+                        {
+                          "type": "loaded",
+                          "description": "true"
+                        },
+                        {
+                          "type": "authRequired",
+                          "description": "true"
+                        },
+                        {
+                          "type": "horizontalScrollbar",
+                          "description": "false"
+                        },
+                        {
+                          "type": "overflowIssues",
+                          "description": "None"
+                        },
+                        {
+                          "type": "navRenders",
+                          "description": "false"
+                        },
+                        {
+                          "type": "textReadability",
+                          "description": "true"
+                        },
+                        {
+                          "type": "pageTitle",
+                          "description": ""
+                        },
+                        {
+                          "type": "finalUrl",
+                          "description": "https://school-connect-enterprise.web.app/login"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f8ec5535fe8a34bc67e0-1a5874ecc5c9e5260bff",
+              "file": "viewport-responsive.spec.ts",
+              "line": 324,
+              "column": 9
+            },
+            {
+              "title": "/login page - Mobile-414x896",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "viewport",
+                      "description": "414x896"
+                    },
+                    {
+                      "type": "loaded",
+                      "description": "true"
+                    },
+                    {
+                      "type": "authRequired",
+                      "description": "true"
+                    },
+                    {
+                      "type": "horizontalScrollbar",
+                      "description": "false"
+                    },
+                    {
+                      "type": "overflowIssues",
+                      "description": "None"
+                    },
+                    {
+                      "type": "navRenders",
+                      "description": "false"
+                    },
+                    {
+                      "type": "textReadability",
+                      "description": "true"
+                    },
+                    {
+                      "type": "pageTitle",
+                      "description": ""
+                    },
+                    {
+                      "type": "finalUrl",
+                      "description": "https://school-connect-enterprise.web.app/login"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2867,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-06T02:51:03.858Z",
+                      "annotations": [
+                        {
+                          "type": "viewport",
+                          "description": "414x896"
+                        },
+                        {
+                          "type": "loaded",
+                          "description": "true"
+                        },
+                        {
+                          "type": "authRequired",
+                          "description": "true"
+                        },
+                        {
+                          "type": "horizontalScrollbar",
+                          "description": "false"
+                        },
+                        {
+                          "type": "overflowIssues",
+                          "description": "None"
+                        },
+                        {
+                          "type": "navRenders",
+                          "description": "false"
+                        },
+                        {
+                          "type": "textReadability",
+                          "description": "true"
+                        },
+                        {
+                          "type": "pageTitle",
+                          "description": ""
+                        },
+                        {
+                          "type": "finalUrl",
+                          "description": "https://school-connect-enterprise.web.app/login"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f8ec5535fe8a34bc67e0-1cc122340a43b5fd530a",
+              "file": "viewport-responsive.spec.ts",
+              "line": 347,
+              "column": 9
+            }
+          ]
+        },
+        {
+          "title": "Viewport: Mobile-360x640 (Mobile)",
+          "file": "viewport-responsive.spec.ts",
+          "line": 280,
+          "column": 8,
+          "specs": [
+            {
+              "title": "Landing page - Mobile-360x640",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "viewport",
+                      "description": "360x640"
+                    },
+                    {
+                      "type": "category",
+                      "description": "Mobile"
+                    },
+                    {
+                      "type": "horizontalScrollbar",
+                      "description": "false"
+                    },
+                    {
+                      "type": "overflowIssues",
+                      "description": "None"
+                    },
+                    {
+                      "type": "navRenders",
+                      "description": "false"
+                    },
+                    {
+                      "type": "navIssues",
+                      "description": "No navigation element found"
+                    },
+                    {
+                      "type": "textReadability",
+                      "description": "true"
+                    },
+                    {
+                      "type": "pageTitle",
+                      "description": ""
+                    },
+                    {
+                      "type": "finalUrl",
+                      "description": "https://school-connect-enterprise.web.app/login"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3434,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-06T02:51:06.754Z",
+                      "annotations": [
+                        {
+                          "type": "viewport",
+                          "description": "360x640"
+                        },
+                        {
+                          "type": "category",
+                          "description": "Mobile"
+                        },
+                        {
+                          "type": "horizontalScrollbar",
+                          "description": "false"
+                        },
+                        {
+                          "type": "overflowIssues",
+                          "description": "None"
+                        },
+                        {
+                          "type": "navRenders",
+                          "description": "false"
+                        },
+                        {
+                          "type": "navIssues",
+                          "description": "No navigation element found"
+                        },
+                        {
+                          "type": "textReadability",
+                          "description": "true"
+                        },
+                        {
+                          "type": "pageTitle",
+                          "description": ""
+                        },
+                        {
+                          "type": "finalUrl",
+                          "description": "https://school-connect-enterprise.web.app/login"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f8ec5535fe8a34bc67e0-6b84a3f61d39e16c8ffd",
+              "file": "viewport-responsive.spec.ts",
+              "line": 298,
+              "column": 9
+            },
+            {
+              "title": "/admin page - Mobile-360x640",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "viewport",
+                      "description": "360x640"
+                    },
+                    {
+                      "type": "loaded",
+                      "description": "true"
+                    },
+                    {
+                      "type": "authRequired",
+                      "description": "true"
+                    },
+                    {
+                      "type": "horizontalScrollbar",
+                      "description": "false"
+                    },
+                    {
+                      "type": "overflowIssues",
+                      "description": "None"
+                    },
+                    {
+                      "type": "navRenders",
+                      "description": "false"
+                    },
+                    {
+                      "type": "textReadability",
+                      "description": "true"
+                    },
+                    {
+                      "type": "pageTitle",
+                      "description": ""
+                    },
+                    {
+                      "type": "finalUrl",
+                      "description": "https://school-connect-enterprise.web.app/login"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2832,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-06T02:51:10.236Z",
+                      "annotations": [
+                        {
+                          "type": "viewport",
+                          "description": "360x640"
+                        },
+                        {
+                          "type": "loaded",
+                          "description": "true"
+                        },
+                        {
+                          "type": "authRequired",
+                          "description": "true"
+                        },
+                        {
+                          "type": "horizontalScrollbar",
+                          "description": "false"
+                        },
+                        {
+                          "type": "overflowIssues",
+                          "description": "None"
+                        },
+                        {
+                          "type": "navRenders",
+                          "description": "false"
+                        },
+                        {
+                          "type": "textReadability",
+                          "description": "true"
+                        },
+                        {
+                          "type": "pageTitle",
+                          "description": ""
+                        },
+                        {
+                          "type": "finalUrl",
+                          "description": "https://school-connect-enterprise.web.app/login"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f8ec5535fe8a34bc67e0-acc322b3278ed36992f0",
+              "file": "viewport-responsive.spec.ts",
+              "line": 324,
+              "column": 9
+            },
+            {
+              "title": "/login page - Mobile-360x640",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "viewport",
+                      "description": "360x640"
+                    },
+                    {
+                      "type": "loaded",
+                      "description": "true"
+                    },
+                    {
+                      "type": "authRequired",
+                      "description": "true"
+                    },
+                    {
+                      "type": "horizontalScrollbar",
+                      "description": "false"
+                    },
+                    {
+                      "type": "overflowIssues",
+                      "description": "None"
+                    },
+                    {
+                      "type": "navRenders",
+                      "description": "false"
+                    },
+                    {
+                      "type": "textReadability",
+                      "description": "true"
+                    },
+                    {
+                      "type": "pageTitle",
+                      "description": ""
+                    },
+                    {
+                      "type": "finalUrl",
+                      "description": "https://school-connect-enterprise.web.app/login"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2792,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-06T02:51:13.078Z",
+                      "annotations": [
+                        {
+                          "type": "viewport",
+                          "description": "360x640"
+                        },
+                        {
+                          "type": "loaded",
+                          "description": "true"
+                        },
+                        {
+                          "type": "authRequired",
+                          "description": "true"
+                        },
+                        {
+                          "type": "horizontalScrollbar",
+                          "description": "false"
+                        },
+                        {
+                          "type": "overflowIssues",
+                          "description": "None"
+                        },
+                        {
+                          "type": "navRenders",
+                          "description": "false"
+                        },
+                        {
+                          "type": "textReadability",
+                          "description": "true"
+                        },
+                        {
+                          "type": "pageTitle",
+                          "description": ""
+                        },
+                        {
+                          "type": "finalUrl",
+                          "description": "https://school-connect-enterprise.web.app/login"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f8ec5535fe8a34bc67e0-9f3ff2cb178c3951dad7",
+              "file": "viewport-responsive.spec.ts",
+              "line": 347,
+              "column": 9
+            }
+          ]
+        },
+        {
+          "title": "Viewport: Mobile-411x823 (Mobile)",
+          "file": "viewport-responsive.spec.ts",
+          "line": 280,
+          "column": 8,
+          "specs": [
+            {
+              "title": "Landing page - Mobile-411x823",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "viewport",
+                      "description": "411x823"
+                    },
+                    {
+                      "type": "category",
+                      "description": "Mobile"
+                    },
+                    {
+                      "type": "horizontalScrollbar",
+                      "description": "false"
+                    },
+                    {
+                      "type": "overflowIssues",
+                      "description": "None"
+                    },
+                    {
+                      "type": "navRenders",
+                      "description": "false"
+                    },
+                    {
+                      "type": "navIssues",
+                      "description": "No navigation element found"
+                    },
+                    {
+                      "type": "textReadability",
+                      "description": "true"
+                    },
+                    {
+                      "type": "pageTitle",
+                      "description": ""
+                    },
+                    {
+                      "type": "finalUrl",
+                      "description": "https://school-connect-enterprise.web.app/login"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3922,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-06T02:51:15.895Z",
+                      "annotations": [
+                        {
+                          "type": "viewport",
+                          "description": "411x823"
+                        },
+                        {
+                          "type": "category",
+                          "description": "Mobile"
+                        },
+                        {
+                          "type": "horizontalScrollbar",
+                          "description": "false"
+                        },
+                        {
+                          "type": "overflowIssues",
+                          "description": "None"
+                        },
+                        {
+                          "type": "navRenders",
+                          "description": "false"
+                        },
+                        {
+                          "type": "navIssues",
+                          "description": "No navigation element found"
+                        },
+                        {
+                          "type": "textReadability",
+                          "description": "true"
+                        },
+                        {
+                          "type": "pageTitle",
+                          "description": ""
+                        },
+                        {
+                          "type": "finalUrl",
+                          "description": "https://school-connect-enterprise.web.app/login"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f8ec5535fe8a34bc67e0-98b2b92b505e9d032086",
+              "file": "viewport-responsive.spec.ts",
+              "line": 298,
+              "column": 9
+            },
+            {
+              "title": "/admin page - Mobile-411x823",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "viewport",
+                      "description": "411x823"
+                    },
+                    {
+                      "type": "loaded",
+                      "description": "true"
+                    },
+                    {
+                      "type": "authRequired",
+                      "description": "true"
+                    },
+                    {
+                      "type": "horizontalScrollbar",
+                      "description": "false"
+                    },
+                    {
+                      "type": "overflowIssues",
+                      "description": "None"
+                    },
+                    {
+                      "type": "navRenders",
+                      "description": "false"
+                    },
+                    {
+                      "type": "textReadability",
+                      "description": "true"
+                    },
+                    {
+                      "type": "pageTitle",
+                      "description": ""
+                    },
+                    {
+                      "type": "finalUrl",
+                      "description": "https://school-connect-enterprise.web.app/login"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2789,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-06T02:51:19.863Z",
+                      "annotations": [
+                        {
+                          "type": "viewport",
+                          "description": "411x823"
+                        },
+                        {
+                          "type": "loaded",
+                          "description": "true"
+                        },
+                        {
+                          "type": "authRequired",
+                          "description": "true"
+                        },
+                        {
+                          "type": "horizontalScrollbar",
+                          "description": "false"
+                        },
+                        {
+                          "type": "overflowIssues",
+                          "description": "None"
+                        },
+                        {
+                          "type": "navRenders",
+                          "description": "false"
+                        },
+                        {
+                          "type": "textReadability",
+                          "description": "true"
+                        },
+                        {
+                          "type": "pageTitle",
+                          "description": ""
+                        },
+                        {
+                          "type": "finalUrl",
+                          "description": "https://school-connect-enterprise.web.app/login"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f8ec5535fe8a34bc67e0-7eb30722d1dc67994eef",
+              "file": "viewport-responsive.spec.ts",
+              "line": 324,
+              "column": 9
+            },
+            {
+              "title": "/login page - Mobile-411x823",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "viewport",
+                      "description": "411x823"
+                    },
+                    {
+                      "type": "loaded",
+                      "description": "true"
+                    },
+                    {
+                      "type": "authRequired",
+                      "description": "true"
+                    },
+                    {
+                      "type": "horizontalScrollbar",
+                      "description": "false"
+                    },
+                    {
+                      "type": "overflowIssues",
+                      "description": "None"
+                    },
+                    {
+                      "type": "navRenders",
+                      "description": "false"
+                    },
+                    {
+                      "type": "textReadability",
+                      "description": "true"
+                    },
+                    {
+                      "type": "pageTitle",
+                      "description": ""
+                    },
+                    {
+                      "type": "finalUrl",
+                      "description": "https://school-connect-enterprise.web.app/login"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2799,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-06T02:51:22.662Z",
+                      "annotations": [
+                        {
+                          "type": "viewport",
+                          "description": "411x823"
+                        },
+                        {
+                          "type": "loaded",
+                          "description": "true"
+                        },
+                        {
+                          "type": "authRequired",
+                          "description": "true"
+                        },
+                        {
+                          "type": "horizontalScrollbar",
+                          "description": "false"
+                        },
+                        {
+                          "type": "overflowIssues",
+                          "description": "None"
+                        },
+                        {
+                          "type": "navRenders",
+                          "description": "false"
+                        },
+                        {
+                          "type": "textReadability",
+                          "description": "true"
+                        },
+                        {
+                          "type": "pageTitle",
+                          "description": ""
+                        },
+                        {
+                          "type": "finalUrl",
+                          "description": "https://school-connect-enterprise.web.app/login"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f8ec5535fe8a34bc67e0-d4920d280afc6234a394",
+              "file": "viewport-responsive.spec.ts",
+              "line": 347,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-05-06T02:49:28.227Z",
+    "duration": 117307.882,
+    "expected": 36,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
